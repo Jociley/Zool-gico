@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio | Jociley</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="topo">
+    <nav class="nav container">
+      <a href="#inicio" class="logo">INÍCIO<span>.</span></a>
+      <ul class="menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contatos">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <!-- INÍCIO -->
+    <section id="inicio" class="sec hero container">
+      <div class="hero__texto">
+        <h1>Olá, eu sou <span>Jociley</span></h1>
+        <img src="avatarjo.jpg" alt="Minha foto de perfil" width="200">
+        <p>Desenvolvedora em formação | ADS – ENIAC | Projetos em HTML, CSS, JS e Dados.</p>
+        <a class="btn" href="#projetos">Ver Projetos</a>
+      </div>
+      <div class="hero__mídia">
+       
+        <img src="avatarjo.jpg" alt="Foto de perfil de Seu Nome" />
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="Sobre" class="sobre">
+      <h2 class="sobre-titulo">Sobre Mim</h2>
+      <div class="sobre-caixa">      
+      <p class="sobre-paragrafo">
+        Olá!Sou estudante de Análise e Desenvolvimento de Sistemas. Gosto de front-end,
+        banco de dados e criar soluções simples e úteis. Aqui você encontra meus
+        projetos e como falar comigo.
+      </p>
+       </div>
+      <ul class="tags">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>MySQL</li>
+      </ul>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="projetos">
+      <h2 class="projetos-titulo">Meus Projetos</h2>
+      <div class="projetos-caixa"></div>
+
+      <div class="projeto1">
+        <!-- Card 1 -->
+        <article class="card__body">
+          <img src="Administracao.png" alt="Capa de Projeto 1" class="card__img">
+          <div class="card__body">
+            <h3 class="info-projetos"> Zoológico</h3>
+            <p class="paragrafo-projetos">Site informativo com galeria por categorias e layout responsivo.</p>
+            <div class="card__links">
+              <a target="_blank" rel="noopener" href="#">Ver Online</a>
+              <a target="_blank" rel="noopener" href="#">Código</a>
+            </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card">
+          <img src="ValidaMais.jpg" alt="Capa do Projeto 2">
+          <div class="card__body">
+            <h3 class="info-projetos">ValidaMais</h3>
+            <p class="">Protótipo de gestão de credenciais com notificações e dashboard (em construção).</p>
+            <div class="card__links">
+              <a target="_blank" rel="noopener" href="#">Ver Online</a>
+              <a target="_blank" rel="noopener" href="#">Código</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card">
+          <img src="analisededados.png" alt="Capa do Projeto 3">
+          <div class="card__body">
+            <h3 class="info-projetos">Dashboard</h3>
+            <p class="paragrafo-projetos">Gráficos simples com HTML/CSS/JS para apresentar dados.</p>
+            <div class="card__links">
+              <a target="_blank" rel="noopener" href="#">Ver Online</a>
+              <a target="_blank" rel="noopener" href="#">Código</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contato">
+      <h2 class="contato-titulo">Contato</h2>
+      <p class="paragrafo-contato">Quer falar comigo? Preencha o formulário abaixo.</p>
+
+      <form id="form-contato" class="form">
+        <div class="campo">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" required placeholder="Seu nome" />
+        </div>
+
+        <div class="campo">
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" required placeholder="@email.com" />
+        </div>
+
+        <div class="campo">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Escreva aqui..."></textarea>
+        </div>
+
+        <button class="btn" type="submit">Enviar</button>
+        <p id="msg-status" class="msg-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="redes-sociais">
+      <p>© <span id="2025 Jociley"></span>2025 Jociley - Todos os Direitos Reservados</p>
+      <p> Jociley nas redes sociais</p>
+      <ul class="social">        
+      </ul>
+    </div>
+  
+  <div class="redes-sociais">
+    <a href="https://www.LinkedIn.com/in/www.linkedin.com/updates-noreply@linkedin.com>" target="_blank"rel="noopener">
+     <img src="assets/img/Linkedin.png" alt="LinkedIn" width="30"></a>
+
+    <a href="https://GitHub.com/ seu -usuario" target="_blank" rel="noopener"> 
+    <img src="assets/img/github.png" alt="GitHub" width="30"></a>
+
+    <a href="https://www.Instagram.com/seu-usuario" target="_blank" rel="noopener">
+      <img src="assets/img/instagram.png" alt="Instagram" width="30"></a>
+  </div>
+  </footer>
+
+  <button id="toTop" class="toTop" aria-label="Voltar ao topo">↑</button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
