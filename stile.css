@@ -30,12 +30,15 @@ a { color: inherit; text-decoration: none; }
   background: linear-gradient(90deg, var(--prim), var(--secun));
 }
 
-.logo {
-  width: 200px;
-  height: 200px;
+.logo-box {
+  width: 180px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-shadow: 0 0 20px rgba(79, 70, 229, 0.3);
-  border-radius: 50px;
-  border: 4px solid var(--vidro);
+  border-radius: 10px;
+  border: 1px solid var(--vidro);
 }
 .menu-link::after{
   width: 100%;
@@ -98,6 +101,13 @@ input:focus, textarea:focus { outline:2px solid var(--prim); border-color:transp
 }
 .toTop.visivel{ opacity:1; visibility:visible; }
 
+
+.thumb img{ aspect-ratio: 4/3; width: 100%; overflow: hidden; }
+@media (max-width: 600px){
+  .thumb{ aspecto: ratio 1px / 1px;}
+}
+
+ 
 /* Responsividade */
 @media (max-width: 1024px){
   .grid{ grid-template-columns: repeat(2, 1fr); }
