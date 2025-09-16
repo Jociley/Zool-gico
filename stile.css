@@ -84,7 +84,7 @@ input:focus, textarea:focus { outline:2px solid var(--prim); border-color:transp
 .msg-status { margin-top:8px; color:var(--cinza); }
 
 /* Rodapé */
-.rodape { background:#9370DB; color:black; }
+.rodape { background:#9370DB; color:rgb(206, 121, 205); }
 .rodape__grid { display:flex; align-items:center; justify-content:center; gap:40px; padding:24px 0; }
 
 .social { display:flex; gap: 40px; list-style:none; padding:0; }
